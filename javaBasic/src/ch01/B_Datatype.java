@@ -75,6 +75,10 @@ public class B_Datatype {
 		float floatNumber = 100;
 		// intNumber = floatNumber;
 		
+		System.out.println("===============================");
+		System.out.println("===============================");
+		System.out.println("===============================");
+
 		// 배열: 동일한 타입의 변수를 묶어 저장하는 컨테이너
 		// new 연산자를 이용해서 생성을 해야함
 		// 한번 생성된 배열의 크기는 변경할 수 없음
