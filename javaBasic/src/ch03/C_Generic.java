@@ -19,7 +19,7 @@ class Test2 {
 class Test3 {
 	String subject;
 	Object score;
-	// Object 코드의 안전성이 떨이짐!
+	// Object 코드의 안전성이 떨어짐!
 }
 // 제너릭 클래스: 클래스 내부에 있는 데이터 타입을 외부에서 받아오려 할 떄 사용
 // class 클래스명<매개타입> {매개타입 변수명;...}
