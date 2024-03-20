@@ -80,9 +80,6 @@ public class A_Variable {
 		// 리터럴: 값 그 자체
 		// int number =10; 이라는 구문에서 '10'이 리터럴;
 		// 10 = 12;
-			
-		
-
 	}
 
 	

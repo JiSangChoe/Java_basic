@@ -53,7 +53,7 @@ public class C_Operator {
 		System.out.println(doubleResult);
 		doubleResult = a / d;
 		System.out.println(doubleResult);
-		
+
 		// 나머지: %
 		// 좌항에 우항을 나눈 나머지를 반환
 		intResult = a % b;
