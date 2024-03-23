@@ -54,20 +54,16 @@ public class B_package2 {
 		
 		
 		// Lotto: 1 ~ 45, 중복 없는 6개의 수 -> 다시 보기
-		Set<Integer> lotto = new TreeSet<>();
-		// 왜 이건 5개 나온다고?
-//		for (int count = 0; count <6; count++) {
-//			
-//		     int number = random.nextInt(45) + 1;
-//		     lotto.add(number);
-//          }
-//		System.out.println(lotto);
-		// 이건 6개나옴
-		while (lotto.size() <6) {			
-		     int number = random.nextInt(45) + 1;
-		     lotto.add(number);
-            }
-		System.out.println(lotto);
+		for (int count = 0; count < 5; count++) {
+			Set<Integer> lotto = new TreeSet<>();
+			
+			while (lotto.size() < 6) {
+				int number = random.nextInt(45) + 1;
+				lotto.add(number);
+			}
+			
+			System.out.println(lotto);
+		}
 			
 	
  	    // 연금 복권: 1-5조 0-9 중복허용한 6자리수 5조 588526
@@ -77,8 +73,8 @@ public class B_package2 {
 	    annuity.add(jo);
 	    
 	    for (int count = 0; count < 6; count++) {	    	
-	         int number = random.nextInt(10);
-	         annuity.add(number);
+	        int number = random.nextInt(10);
+	        annuity.add(number);
 	    }
 	    
 	    System.out.println(annuity);
@@ -138,7 +134,7 @@ public class B_package2 {
 	    dateString = now.format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss"));
 	    System.out.println(dateString);
 	    
-     }
+    }
 	    
 	
 }

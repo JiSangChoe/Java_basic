@@ -13,7 +13,7 @@ package ch02;
 // 직사각형 넓이 구하기 - Double 밑변, Double 높이 -> Double 직사각형 넓이
 // 원 넓이 구하기 - Double 반지름 -> Double 원넓이
 
-interface AreaCalculatrion {
+interface AreaCalculation {
 	
 	public static final double PI = 3.14;
 	
@@ -25,7 +25,7 @@ interface AreaCalculatrion {
 }
 
 // 인터페이스는 implements 키워드를 이용해서 클래스에 구현해야함
-class MyMath implements AreaCalculatrion {
+class MyMath implements AreaCalculation {
 
 	@Override
 	public double getTriangleArea(double bottom, double height) {		
@@ -49,7 +49,7 @@ class MyMath implements AreaCalculatrion {
 	
 }
 
-class MyMath2 implements AreaCalculatrion {
+class MyMath2 implements AreaCalculation {
 	
 
 	@Override
@@ -77,9 +77,9 @@ public class G_Interface {
 
 	public static void main(String[] args) {
 		
-		AreaCalculatrion instance = new MyMath2();
+		AreaCalculation instance = new MyMath2();
 		
-		// 다형성 코드의 안전성을 위해 클래스Math2 생성하여 중복된부분을 안정화?
+		// 다형성 : 코드의 재사용, 유연성, 확장성
 		
 		
 

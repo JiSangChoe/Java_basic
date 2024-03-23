@@ -1,7 +1,7 @@
 package ch02;
 
 // 상속: 객체지향 프로그래밍의 특성 중 하나
-// 원래 존재하던 클래스를 확자하여 재사용할 수 있도록 하는 것
+// 원래 존재하던 클래스를 확장하여 재사용할 수 있도록 하는 것
 // 코드 중복을 제거하고 확장성을 높일 수 있음
 // extends 키워드를 사용하여 확장
 
@@ -35,7 +35,7 @@ class Teacher extends Human {
 	String course;
 //	
 //	void sleep () {
-//		System.out.println(name + "가 잠을 잡니다.");
+//		System.out.println(name + "가 잠을 주무십니다.");
 //	}
 	
 	void teach () {
@@ -49,7 +49,7 @@ class Developer extends Human {
 	String position;
 //	
 //	void sleep () {
-//		System.out.println(name + "가 잠을 잡니다.");
+//		System.out.println(name + "가 잠을 주무십니다.");
 //	}	
 	
 	void develop () {
