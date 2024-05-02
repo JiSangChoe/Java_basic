@@ -21,9 +21,10 @@ class Apple extends Berry{
     }
 }
 
-public class construct {
+public class Construct {
     public static void main(String[] args) {
         Berry c = new Apple();
         c.meth();
     }
 }
+

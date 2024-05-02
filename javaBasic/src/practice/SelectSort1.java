@@ -1,6 +1,6 @@
 package practice;
 
-public class test1 {
+public class SelectSort1 {
     public static void main(String[] args) {
         int result[] = new int[5];
         int arr[] = {77,32,10,99,50};

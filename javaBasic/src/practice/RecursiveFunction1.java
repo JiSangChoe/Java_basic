@@ -16,7 +16,7 @@ class Child extends Parent {
     }
 }
 
-public class test3 {
+public class RecursiveFunction1 {
     public static void main(String[] args) {
         Parent obj = new Child();
         System.out.println(obj.compute(7));

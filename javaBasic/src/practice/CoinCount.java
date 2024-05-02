@@ -10,7 +10,7 @@ package practice;
 // 괄호 : [,], (,)
 // 정수 : 1000, 500, 100, 10
 
-public class test6 {
+public class CoinCount {
     public static void main(String[] args) {
         int m = 4620;
 
